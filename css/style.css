@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6395EC;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.info-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.field label{
+    font-weight: 500px;
+}
+.info-login h1{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 40px;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.inputBtn{
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btnLogin{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: #585858;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+
+/*---------------------SECTION PAGE--------------------------*/
+.main-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.btnContainer{
+    display: flex;
+    gap: 30px;
+}
+.btnContainer button{
+    cursor: pointer;
+    background-color: #585858;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+}
+.btnRight{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.btnLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*---------------------THIRD PAGE--------------------------*/
+.withdraw-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+.account-container{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    font-family: 'Poppins', sans-serif;
+}
+.account-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.accountBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+.btnRight button{
+    cursor: pointer;
+    background-color: #585858;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+}
+.down-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.down-button button{
+    cursor: pointer;
+    background-color: #585858;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+}
+.transfer-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/*---------------------FIFTH PAGE--------------------------*/
+.account-settingInputs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.account-button{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.account-button button{
+    cursor: pointer;
+    background-color: #585858;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 50px;
+    font-size: 15px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0 ;
+    padding: 50px;
+    cursor: pointer;
+}
